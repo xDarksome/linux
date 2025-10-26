@@ -1059,6 +1059,11 @@
 	};
 };
 
+&pm7250b_vbus {
+    regulator-name = "usb_vbus";
+    status = "okay";
+};
+
 &pm7325_gpios {
 	volume_down_default: volume-down-default-state {
 		pins = "gpio6";
