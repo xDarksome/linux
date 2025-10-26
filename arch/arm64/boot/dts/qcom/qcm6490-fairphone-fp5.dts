@@ -84,6 +84,8 @@
 
 		orientation-gpios = <&tlmm 140 GPIO_ACTIVE_HIGH>;
 
+		vbus-supply = <&pm7250b_vbus>;
+
 		connector@0 {
 			compatible = "usb-c-connector";
 			reg = <0>;
