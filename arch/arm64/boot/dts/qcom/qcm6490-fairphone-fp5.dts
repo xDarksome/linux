@@ -1518,6 +1518,7 @@
 };
 
 &usb_1 {
+	vbus-supply = <&pm7250b_vbus>;
 	status = "okay";
 };
 
