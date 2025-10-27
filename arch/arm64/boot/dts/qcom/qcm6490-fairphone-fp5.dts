@@ -1066,7 +1066,6 @@
 &pm7250b_vbus {
     regulator-name = "usb_vbus";
     regulator-boot-on;
-    regulator-always-on;
     status = "okay";
 };
 
